@@ -1,0 +1,1 @@
+import{_ as a,v as e,b as t}from"./chunks/framework.4f207390.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"面试题/vue/pinia.md","filePath":"面试题/vue/pinia.md","lastUpdated":1660556470000}'),s={name:"面试题/vue/pinia.md"};function i(n,r,p,o,d,c){return e(),t("div")}const m=a(s,[["render",i]]);export{f as __pageData,m as default};

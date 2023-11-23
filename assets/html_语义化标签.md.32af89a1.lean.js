@@ -1,0 +1,1 @@
+import{_ as t,v as e,b as a}from"./chunks/framework.4f207390.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"html/语义化标签.md","filePath":"html/语义化标签.md","lastUpdated":1666751387000}'),s={name:"html/语义化标签.md"};function r(_,n,o,d,c,m){return e(),a("div")}const f=t(s,[["render",r]]);export{i as __pageData,f as default};

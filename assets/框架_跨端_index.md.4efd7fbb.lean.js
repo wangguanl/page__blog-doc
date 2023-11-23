@@ -1,0 +1,1 @@
+import{_ as e,v as t,b as a}from"./chunks/framework.4f207390.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"框架/跨端/index.md","filePath":"框架/跨端/index.md","lastUpdated":1663229156000}'),s={name:"框架/跨端/index.md"};function n(r,d,i,o,c,p){return t(),a("div")}const m=e(s,[["render",n]]);export{f as __pageData,m as default};

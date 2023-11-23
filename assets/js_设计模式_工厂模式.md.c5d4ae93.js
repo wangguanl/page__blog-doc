@@ -1,0 +1,1 @@
+import{_ as t,v as e,b as s}from"./chunks/framework.4f207390.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"js/设计模式/工厂模式.md","filePath":"js/设计模式/工厂模式.md","lastUpdated":1692174619000}'),a={name:"js/设计模式/工厂模式.md"};function r(_,n,o,d,c,p){return e(),s("div")}const m=t(a,[["render",r]]);export{f as __pageData,m as default};

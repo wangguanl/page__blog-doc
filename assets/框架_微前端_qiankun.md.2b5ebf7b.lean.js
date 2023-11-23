@@ -1,0 +1,1 @@
+import{_ as a,v as t,b as e}from"./chunks/framework.4f207390.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"框架/微前端/qiankun.md","filePath":"框架/微前端/qiankun.md","lastUpdated":1663229156000}'),n={name:"框架/微前端/qiankun.md"};function s(r,i,o,d,c,p){return t(),e("div")}const m=a(n,[["render",s]]);export{f as __pageData,m as default};

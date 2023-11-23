@@ -1,0 +1,1 @@
+import{_ as t,v as e,b as a}from"./chunks/framework.4f207390.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"面试题/优化/html.md","filePath":"面试题/优化/html.md","lastUpdated":1663229156000}'),s={name:"面试题/优化/html.md"};function r(n,o,d,m,c,p){return e(),a("div")}const l=t(s,[["render",r]]);export{i as __pageData,l as default};

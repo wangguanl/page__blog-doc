@@ -1,0 +1,1 @@
+import{_ as e,v as t,b as a}from"./chunks/framework.4f207390.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"框架/vue/vue/设计思想.md","filePath":"框架/vue/vue/设计思想.md","lastUpdated":1661234872000}'),s={name:"框架/vue/vue/设计思想.md"};function r(_,n,o,d,c,p){return t(),a("div")}const v=e(s,[["render",r]]);export{u as __pageData,v as default};

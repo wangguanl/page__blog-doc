@@ -1,0 +1,1 @@
+import{_ as e,v as t,b as a}from"./chunks/framework.4f207390.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"构建工具/yarn/index.md","filePath":"构建工具/yarn/index.md","lastUpdated":1671778515000}'),n={name:"构建工具/yarn/index.md"};function r(s,d,i,o,c,p){return t(),a("div")}const m=e(n,[["render",r]]);export{f as __pageData,m as default};

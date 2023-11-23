@@ -1,0 +1,1 @@
+import{_ as t,v as e,b as a}from"./chunks/framework.4f207390.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"html/form.md","filePath":"html/form.md","lastUpdated":1666751387000}'),r={name:"html/form.md"};function s(o,m,n,d,f,c){return e(),a("div")}const i=t(r,[["render",s]]);export{_ as __pageData,i as default};
