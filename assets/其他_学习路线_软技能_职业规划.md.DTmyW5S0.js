@@ -1,0 +1,81 @@
+import{az as s,P as n,Q as p,aQ as t}from"./chunks/framework.oHSDCGnP.js";import"./chunks/theme.SRuXo2Mz.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"其他/学习路线/软技能/职业规划.md","filePath":"其他/学习路线/软技能/职业规划.md","lastUpdated":1785339991000}'),e={name:"其他/学习路线/软技能/职业规划.md"};function l(d,a,i,c,r,o){return n(),p("div",null,[...a[0]||(a[0]=[t(`<h2 id="职业规划" tabindex="-1">职业规划 <a class="header-anchor" href="#职业规划" aria-label="Permalink to “职业规划”">​</a></h2><p><a href="https://book.douban.com/subject/26378778/" target="_blank" rel="noreferrer">你的降落伞是什么颜色</a></p><p>职业规划是程序员长期发展的指南针。明确的职业目标能帮助你在技术选型、学习方向和跳槽决策上做出更理性的选择。本文从前端工程师的视角梳理职业规划的思路和路径。</p><h2 id="职业方向选择" tabindex="-1">职业方向选择 <a class="header-anchor" href="#职业方向选择" aria-label="Permalink to “职业方向选择”">​</a></h2><p>前端工程师的职业发展通常有以下几个方向：</p><h3 id="技术专家路线" tabindex="-1">技术专家路线 <a class="header-anchor" href="#技术专家路线" aria-label="Permalink to “技术专家路线”">​</a></h3><div class="language-text"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki material-theme-palenight" style="background-color:#292D3E;color:#babed8;" tabindex="0" dir="ltr"><code><span class="line"><span>路径：初级 → 中级 → 高级 → 技术专家 → 首席工程师</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>核心能力：</span></span>
+<span class="line"><span>- 深入掌握前端核心技术栈</span></span>
+<span class="line"><span>- 具备跨端开发能力（前端、微前端 qiankun/single-spa、Node.js、Serverless）</span></span>
+<span class="line"><span>- 精通性能优化与架构设计</span></span>
+<span class="line"><span>- 掌握图形可视化（Canvas、WebGL、Three.js）</span></span>
+<span class="line"><span>- 了解其他语言生态（Rust、Go、Python）</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>适合人群：热爱技术、喜欢钻研原理、享受解决复杂问题</span></span></code></pre></div><h3 id="技术管理路线" tabindex="-1">技术管理路线 <a class="header-anchor" href="#技术管理路线" aria-label="Permalink to “技术管理路线”">​</a></h3><div class="language-text"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki material-theme-palenight" style="background-color:#292D3E;color:#babed8;" tabindex="0" dir="ltr"><code><span class="line"><span>路径：初级 → 中级 → 高级 → Tech Lead → 技术经理 → 技术总监</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>核心能力：</span></span>
+<span class="line"><span>- 技术架构决策能力</span></span>
+<span class="line"><span>- 团队管理与人才培养</span></span>
+<span class="line"><span>- 项目管理与资源协调</span></span>
+<span class="line"><span>- 跨部门沟通与协作</span></span>
+<span class="line"><span>- 技术战略规划</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>适合人群：善于沟通、有领导力、关注团队整体产出</span></span></code></pre></div><h3 id="产品-全栈路线" tabindex="-1">产品/全栈路线 <a class="header-anchor" href="#产品-全栈路线" aria-label="Permalink to “产品/全栈路线”">​</a></h3><div class="language-text"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki material-theme-palenight" style="background-color:#292D3E;color:#babed8;" tabindex="0" dir="ltr"><code><span class="line"><span>路径：前端 → 全栈 → 技术产品经理 → 产品负责人</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>核心能力：</span></span>
+<span class="line"><span>- 前端 + Node.js 后端开发</span></span>
+<span class="line"><span>- 数据库与运维基础</span></span>
+<span class="line"><span>- 产品思维与用户洞察</span></span>
+<span class="line"><span>- 数据分析与决策</span></span>
+<span class="line"><span>- 商业理解能力</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>适合人群：对产品有兴趣、希望掌控完整链路、有创业想法</span></span></code></pre></div><h2 id="职业方向对比" tabindex="-1">职业方向对比 <a class="header-anchor" href="#职业方向对比" aria-label="Permalink to “职业方向对比”">​</a></h2><table tabindex="0"><thead><tr><th>维度</th><th>技术专家</th><th>技术管理</th><th>全栈/产品</th></tr></thead><tbody><tr><td>核心能力</td><td>技术深度</td><td>管理能力</td><td>综合能力</td></tr><tr><td>日常重心</td><td>写代码、研究</td><td>带团队、沟通</td><td>全链路开发</td></tr><tr><td>收入天花板</td><td>高</td><td>很高</td><td>取决于产品</td></tr><tr><td>影响力范围</td><td>技术团队</td><td>整个团队</td><td>业务线</td></tr><tr><td>转型难度</td><td>中</td><td>高</td><td>中</td></tr><tr><td>适合阶段</td><td>全程</td><td>4 年+</td><td>3 年+</td></tr></tbody></table><h2 id="技能树规划" tabindex="-1">技能树规划 <a class="header-anchor" href="#技能树规划" aria-label="Permalink to “技能树规划”">​</a></h2><h3 id="前端核心技能" tabindex="-1">前端核心技能 <a class="header-anchor" href="#前端核心技能" aria-label="Permalink to “前端核心技能”">​</a></h3><div class="language-text"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki material-theme-palenight" style="background-color:#292D3E;color:#babed8;" tabindex="0" dir="ltr"><code><span class="line"><span>必须掌握（地基）：</span></span>
+<span class="line"><span>├── HTML / CSS / JavaScript</span></span>
+<span class="line"><span>├── TypeScript</span></span>
+<span class="line"><span>├── Vue / React（至少精通一个）</span></span>
+<span class="line"><span>├── HTTP / 浏览器原理</span></span>
+<span class="line"><span>└── Git / 工程化工具</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>进阶方向（分支）：</span></span>
+<span class="line"><span>├── 前端架构：微前端、Monorepo、组件库</span></span>
+<span class="line"><span>├── 跨端开发：Electron、React Native、Flutter</span></span>
+<span class="line"><span>├── 服务端：Node.js、Serverless、BFF</span></span>
+<span class="line"><span>├── 图形领域：Canvas、WebGL、Three.js</span></span>
+<span class="line"><span>├── 工程化：CI/CD、构建工具、自动化测试</span></span>
+<span class="line"><span>└── 前沿方向：WebAssembly、AI + 前端</span></span></code></pre></div><h3 id="能力矩阵" tabindex="-1">能力矩阵 <a class="header-anchor" href="#能力矩阵" aria-label="Permalink to “能力矩阵”">​</a></h3><table tabindex="0"><thead><tr><th>能力</th><th>初级</th><th>中级</th><th>高级</th><th>专家</th></tr></thead><tbody><tr><td>编码</td><td>能写功能</td><td>代码规范</td><td>设计模式</td><td>语言精通</td></tr><tr><td>框架</td><td>会用</td><td>理解原理</td><td>能造轮子</td><td>贡献源码</td></tr><tr><td>工程</td><td>会用工具</td><td>配置优化</td><td>搭建体系</td><td>制定标准</td></tr><tr><td>架构</td><td>模块化</td><td>组件化</td><td>系统设计</td><td>技术战略</td></tr><tr><td>业务</td><td>理解需求</td><td>主导模块</td><td>负责产品线</td><td>商业洞察</td></tr></tbody></table><h2 id="跳槽决策" tabindex="-1">跳槽决策 <a class="header-anchor" href="#跳槽决策" aria-label="Permalink to “跳槽决策”">​</a></h2><div class="language-text"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki material-theme-palenight" style="background-color:#292D3E;color:#babed8;" tabindex="0" dir="ltr"><code><span class="line"><span>跳槽评估框架：</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>1. 当前岗位是否还有成长空间？</span></span>
+<span class="line"><span>   - 技术上是否还能学到新东西？</span></span>
+<span class="line"><span>   - 职级和薪资是否有上升通道？</span></span>
+<span class="line"><span>   - 团队和业务是否有发展前景？</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>2. 目标机会是否更好？</span></span>
+<span class="line"><span>   - 技术栈是否匹配职业方向？</span></span>
+<span class="line"><span>   - 平台和业务规模是否更大？</span></span>
+<span class="line"><span>   - 薪资涨幅是否合理（通常 20%-30%）？</span></span>
+<span class="line"><span>   - 团队文化是否适合自己？</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>3. 跳槽时机</span></span>
+<span class="line"><span>   - 在当前公司至少 1-2 年（避免频繁跳槽）</span></span>
+<span class="line"><span>   - 当前项目有完整交付经历</span></span>
+<span class="line"><span>   - 非裸辞，先拿到 offer</span></span></code></pre></div><h2 id="年度规划模板" tabindex="-1">年度规划模板 <a class="header-anchor" href="#年度规划模板" aria-label="Permalink to “年度规划模板”">​</a></h2><div class="language-text"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki material-theme-palenight" style="background-color:#292D3E;color:#babed8;" tabindex="0" dir="ltr"><code><span class="line"><span>2024 年度规划</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>一、技术目标</span></span>
+<span class="line"><span>- 深入学习 React 源码，输出 3 篇源码分析文章</span></span>
+<span class="line"><span>- 掌握 Node.js 后端开发，完成一个全栈项目</span></span>
+<span class="line"><span>- 学习 Rust 基础，了解 WebAssembly</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>二、职业目标</span></span>
+<span class="line"><span>- 晋升到高级工程师</span></span>
+<span class="line"><span>- 负责 1-2 个核心模块的技术方案</span></span>
+<span class="line"><span>- 带领 1-2 名初级开发者</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>三、影响力目标</span></span>
+<span class="line"><span>- 技术博客输出 20 篇文章</span></span>
+<span class="line"><span>- 在团队内做 4 次技术分享</span></span>
+<span class="line"><span>- 参与 1 个开源项目贡献</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>四、收入目标</span></span>
+<span class="line"><span>- 年薪增长 20%</span></span>
+<span class="line"><span>- 副业收入月均 3000+</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>五、健康目标</span></span>
+<span class="line"><span>- 每周运动 3 次</span></span>
+<span class="line"><span>- 年度体检</span></span>
+<span class="line"><span>- 保持 23:30 前入睡</span></span></code></pre></div><h2 id="职业规划原则" tabindex="-1">职业规划原则 <a class="header-anchor" href="#职业规划原则" aria-label="Permalink to “职业规划原则”">​</a></h2><table tabindex="0"><thead><tr><th>原则</th><th>说明</th></tr></thead><tbody><tr><td>长期主义</td><td>关注 3-5 年的发展，不因短期利益偏离方向</td></tr><tr><td>T 型发展</td><td>先在一个领域深耕，再横向扩展</td></tr><tr><td>价值导向</td><td>选择能创造最大价值的方向</td></tr><tr><td>持续复盘</td><td>每季度回顾规划执行情况，及时调整</td></tr><tr><td>保持弹性</td><td>规划要有容错空间，拥抱变化</td></tr></tbody></table>`,24)])])}const u=s(e,[["render",l]]);export{m as __pageData,u as default};

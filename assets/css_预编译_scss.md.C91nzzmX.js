@@ -1,0 +1,104 @@
+import{az as a,P as n,Q as l,aQ as p}from"./chunks/framework.oHSDCGnP.js";import"./chunks/theme.SRuXo2Mz.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"css/预编译/scss.md","filePath":"css/预编译/scss.md","lastUpdated":1785339991000}'),o={name:"css/预编译/scss.md"};function e(t,s,c,r,D,F){return n(),l("div",null,[...s[0]||(s[0]=[p(`<h2 id="scss-sass" tabindex="-1">SCSS / Sass <a class="header-anchor" href="#scss-sass" aria-label="Permalink to “SCSS / Sass”">​</a></h2><p><a href="https://sass-lang.com/" target="_blank" rel="noreferrer">Sass 官方文档</a></p><p>Sass 是 CSS 预处理器，提供了变量、嵌套、混入、继承等增强功能，编译后输出标准 CSS。SCSS 是 Sass 3 引入的新语法，兼容 CSS 语法，使用大括号和分号。</p><h2 id="变量" tabindex="-1">变量 <a class="header-anchor" href="#变量" aria-label="Permalink to “变量”">​</a></h2><div class="language-scss"><button title="Copy Code" class="copy"></button><span class="lang">scss</span><pre class="shiki material-theme-palenight" style="background-color:#292D3E;color:#babed8;" tabindex="0" dir="ltr"><code><span class="line"><span style="color:#BABED8;">$primary-color</span><span style="color:#89DDFF;">:</span><span style="color:#89DDFF;"> #</span><span style="color:#BABED8;">409eff</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#BABED8;">$font-size</span><span style="color:#89DDFF;">:</span><span style="color:#F78C6C;"> 14px</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#BABED8;">$border-radius</span><span style="color:#89DDFF;">:</span><span style="color:#F78C6C;"> 4px</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#89DDFF;">.</span><span style="color:#FFCB6B;">button</span><span style="color:#89DDFF;"> {</span></span>
+<span class="line"><span style="color:#B2CCD6;">  color</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> $primary-color</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#B2CCD6;">  font-size</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> $font-size</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#B2CCD6;">  border-radius</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> $border-radius</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#89DDFF;">}</span></span></code></pre></div><h2 id="嵌套" tabindex="-1">嵌套 <a class="header-anchor" href="#嵌套" aria-label="Permalink to “嵌套”">​</a></h2><div class="language-scss"><button title="Copy Code" class="copy"></button><span class="lang">scss</span><pre class="shiki material-theme-palenight" style="background-color:#292D3E;color:#babed8;" tabindex="0" dir="ltr"><code><span class="line"><span style="color:#89DDFF;">.</span><span style="color:#FFCB6B;">nav</span><span style="color:#89DDFF;"> {</span></span>
+<span class="line"><span style="color:#B2CCD6;">  background</span><span style="color:#89DDFF;">:</span><span style="color:#89DDFF;"> #</span><span style="color:#BABED8;">fff</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FFCB6B;">  ul</span><span style="color:#89DDFF;"> {</span></span>
+<span class="line"><span style="color:#B2CCD6;">    list-style</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> none</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#B2CCD6;">    margin</span><span style="color:#89DDFF;">:</span><span style="color:#F78C6C;"> 0</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#89DDFF;">  }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FFCB6B;">  li</span><span style="color:#89DDFF;"> {</span></span>
+<span class="line"><span style="color:#B2CCD6;">    display</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> inline-block</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FFCB6B;">    a</span><span style="color:#89DDFF;"> {</span></span>
+<span class="line"><span style="color:#B2CCD6;">      text-decoration</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> none</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#B2CCD6;">      color</span><span style="color:#89DDFF;">:</span><span style="color:#89DDFF;"> #</span><span style="color:#BABED8;">333</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#FFCB6B;">      &amp;</span><span style="color:#89DDFF;">:</span><span style="color:#C792EA;">hover</span><span style="color:#89DDFF;"> {</span></span>
+<span class="line"><span style="color:#B2CCD6;">        color</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> $primary-color</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#89DDFF;">      }</span></span>
+<span class="line"><span style="color:#89DDFF;">    }</span></span>
+<span class="line"><span style="color:#89DDFF;">  }</span></span>
+<span class="line"><span style="color:#89DDFF;">}</span></span></code></pre></div><blockquote><p><code>&amp;</code> 引用父选择器，编译后为 <code>.nav li a:hover</code>。</p></blockquote><h2 id="混入-mixin" tabindex="-1">混入（Mixin） <a class="header-anchor" href="#混入-mixin" aria-label="Permalink to “混入（Mixin）”">​</a></h2><div class="language-scss"><button title="Copy Code" class="copy"></button><span class="lang">scss</span><pre class="shiki material-theme-palenight" style="background-color:#292D3E;color:#babed8;" tabindex="0" dir="ltr"><code><span class="line"><span style="color:#89DDFF;font-style:italic;">@mixin</span><span style="color:#82AAFF;"> flex-center</span><span style="color:#89DDFF;"> {</span></span>
+<span class="line"><span style="color:#B2CCD6;">  display</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> flex</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#B2CCD6;">  justify-content</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> center</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#B2CCD6;">  align-items</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> center</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#89DDFF;">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#89DDFF;font-style:italic;">@mixin</span><span style="color:#82AAFF;"> abs-position</span><span style="color:#89DDFF;">(</span><span style="color:#BABED8;">$top</span><span style="color:#89DDFF;">:</span><span style="color:#F78C6C;"> 0</span><span style="color:#BABED8;">, $right</span><span style="color:#89DDFF;">:</span><span style="color:#F78C6C;"> 0</span><span style="color:#BABED8;">, $bottom</span><span style="color:#89DDFF;">:</span><span style="color:#F78C6C;"> 0</span><span style="color:#BABED8;">, $left</span><span style="color:#89DDFF;">:</span><span style="color:#F78C6C;"> 0</span><span style="color:#89DDFF;">)</span><span style="color:#89DDFF;"> {</span></span>
+<span class="line"><span style="color:#B2CCD6;">  position</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> absolute</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#B2CCD6;">  top</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> $top</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#B2CCD6;">  right</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> $right</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#B2CCD6;">  bottom</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> $bottom</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#B2CCD6;">  left</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> $left</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#89DDFF;">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#89DDFF;">.</span><span style="color:#FFCB6B;">modal</span><span style="color:#89DDFF;"> {</span></span>
+<span class="line"><span style="color:#89DDFF;font-style:italic;">  @include</span><span style="color:#82AAFF;"> flex-center</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#89DDFF;">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#89DDFF;">.</span><span style="color:#FFCB6B;">badge</span><span style="color:#89DDFF;"> {</span></span>
+<span class="line"><span style="color:#89DDFF;font-style:italic;">  @include</span><span style="color:#82AAFF;"> abs-position</span><span style="color:#89DDFF;">(</span><span style="color:#BABED8;">$top</span><span style="color:#89DDFF;">:</span><span style="color:#F78C6C;"> 10px</span><span style="color:#BABED8;">, $right</span><span style="color:#89DDFF;">:</span><span style="color:#F78C6C;"> 10px</span><span style="color:#89DDFF;">);</span></span>
+<span class="line"><span style="color:#89DDFF;">}</span></span></code></pre></div><h2 id="继承-extend" tabindex="-1">继承（Extend） <a class="header-anchor" href="#继承-extend" aria-label="Permalink to “继承（Extend）”">​</a></h2><div class="language-scss"><button title="Copy Code" class="copy"></button><span class="lang">scss</span><pre class="shiki material-theme-palenight" style="background-color:#292D3E;color:#babed8;" tabindex="0" dir="ltr"><code><span class="line"><span style="color:#89DDFF;">%</span><span style="color:#C792EA;">message-base</span><span style="color:#89DDFF;"> {</span></span>
+<span class="line"><span style="color:#B2CCD6;">  padding</span><span style="color:#89DDFF;">:</span><span style="color:#F78C6C;"> 10px</span><span style="color:#F78C6C;"> 20px</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#B2CCD6;">  border-radius</span><span style="color:#89DDFF;">:</span><span style="color:#F78C6C;"> 4px</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#89DDFF;">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#89DDFF;">.</span><span style="color:#FFCB6B;">success</span><span style="color:#89DDFF;"> {</span></span>
+<span class="line"><span style="color:#89DDFF;font-style:italic;">  @extend</span><span style="color:#89DDFF;"> %</span><span style="color:#C792EA;">message-base</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#B2CCD6;">  background</span><span style="color:#89DDFF;">:</span><span style="color:#89DDFF;"> #</span><span style="color:#BABED8;">e1f3d8</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#89DDFF;">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#89DDFF;">.</span><span style="color:#FFCB6B;">error</span><span style="color:#89DDFF;"> {</span></span>
+<span class="line"><span style="color:#89DDFF;font-style:italic;">  @extend</span><span style="color:#89DDFF;"> %</span><span style="color:#C792EA;">message-base</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#B2CCD6;">  background</span><span style="color:#89DDFF;">:</span><span style="color:#89DDFF;"> #</span><span style="color:#BABED8;">fde2e2</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#89DDFF;">}</span></span></code></pre></div><h2 id="条件与循环" tabindex="-1">条件与循环 <a class="header-anchor" href="#条件与循环" aria-label="Permalink to “条件与循环”">​</a></h2><div class="language-scss"><button title="Copy Code" class="copy"></button><span class="lang">scss</span><pre class="shiki material-theme-palenight" style="background-color:#292D3E;color:#babed8;" tabindex="0" dir="ltr"><code><span class="line"><span style="color:#BABED8;">$columns</span><span style="color:#89DDFF;">:</span><span style="color:#F78C6C;"> 12</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#89DDFF;font-style:italic;">@for</span><span style="color:#BABED8;"> $i </span><span style="color:#89DDFF;font-style:italic;">from</span><span style="color:#F78C6C;"> 1</span><span style="color:#89DDFF;font-style:italic;"> through</span><span style="color:#BABED8;"> $columns </span><span style="color:#89DDFF;">{</span></span>
+<span class="line"><span style="color:#89DDFF;">  .</span><span style="color:#FFCB6B;">col-</span><span style="color:#89DDFF;">#{</span><span style="color:#BABED8;">$i</span><span style="color:#89DDFF;">}</span><span style="color:#89DDFF;"> {</span></span>
+<span class="line"><span style="color:#B2CCD6;">    width</span><span style="color:#89DDFF;">:</span><span style="color:#82AAFF;"> percentage</span><span style="color:#89DDFF;">(</span><span style="color:#BABED8;">$i </span><span style="color:#89DDFF;">/</span><span style="color:#BABED8;"> $columns</span><span style="color:#89DDFF;">);</span></span>
+<span class="line"><span style="color:#89DDFF;">  }</span></span>
+<span class="line"><span style="color:#89DDFF;">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#89DDFF;font-style:italic;">@mixin</span><span style="color:#82AAFF;"> theme-colors</span><span style="color:#89DDFF;">(</span><span style="color:#BABED8;">$dark</span><span style="color:#89DDFF;">:</span><span style="color:#BABED8;"> false</span><span style="color:#89DDFF;">)</span><span style="color:#89DDFF;"> {</span></span>
+<span class="line"><span style="color:#89DDFF;font-style:italic;">  @if</span><span style="color:#BABED8;"> $dark </span><span style="color:#89DDFF;">{</span></span>
+<span class="line"><span style="color:#B2CCD6;">    background</span><span style="color:#89DDFF;">:</span><span style="color:#89DDFF;"> #</span><span style="color:#BABED8;">333</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#B2CCD6;">    color</span><span style="color:#89DDFF;">:</span><span style="color:#89DDFF;"> #</span><span style="color:#BABED8;">fff</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#89DDFF;">  }</span><span style="color:#89DDFF;font-style:italic;"> @else </span><span style="color:#89DDFF;">{</span></span>
+<span class="line"><span style="color:#B2CCD6;">    background</span><span style="color:#89DDFF;">:</span><span style="color:#89DDFF;"> #</span><span style="color:#BABED8;">fff</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#B2CCD6;">    color</span><span style="color:#89DDFF;">:</span><span style="color:#89DDFF;"> #</span><span style="color:#BABED8;">333</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#89DDFF;">  }</span></span>
+<span class="line"><span style="color:#89DDFF;">}</span></span></code></pre></div><h2 id="函数" tabindex="-1">函数 <a class="header-anchor" href="#函数" aria-label="Permalink to “函数”">​</a></h2><div class="language-scss"><button title="Copy Code" class="copy"></button><span class="lang">scss</span><pre class="shiki material-theme-palenight" style="background-color:#292D3E;color:#babed8;" tabindex="0" dir="ltr"><code><span class="line"><span style="color:#BABED8;">$base-font</span><span style="color:#89DDFF;">:</span><span style="color:#F78C6C;"> 16px</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#89DDFF;font-style:italic;">@function</span><span style="color:#82AAFF;"> px-to-rem</span><span style="color:#89DDFF;">(</span><span style="color:#BABED8;">$px</span><span style="color:#89DDFF;">)</span><span style="color:#89DDFF;"> {</span></span>
+<span class="line"><span style="color:#89DDFF;font-style:italic;">  @return</span><span style="color:#89DDFF;"> (</span><span style="color:#BABED8;">$px </span><span style="color:#89DDFF;">/</span><span style="color:#BABED8;"> $base-font</span><span style="color:#89DDFF;">)</span><span style="color:#89DDFF;"> *</span><span style="color:#F78C6C;"> 1rem</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#89DDFF;">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#89DDFF;">.</span><span style="color:#FFCB6B;">title</span><span style="color:#89DDFF;"> {</span></span>
+<span class="line"><span style="color:#B2CCD6;">  font-size</span><span style="color:#89DDFF;">:</span><span style="color:#82AAFF;"> px-to-rem</span><span style="color:#89DDFF;">(</span><span style="color:#F78C6C;">24px</span><span style="color:#89DDFF;">);</span></span>
+<span class="line"><span style="color:#89DDFF;">}</span></span></code></pre></div><h2 id="使用-partials-局部文件" tabindex="-1">使用 Partials（局部文件） <a class="header-anchor" href="#使用-partials-局部文件" aria-label="Permalink to “使用 Partials（局部文件）”">​</a></h2><p>以 <code>_</code> 开头的文件不会被单独编译，只能被 <code>@import</code> / <code>@use</code> 引入。</p><div class="language-scss"><button title="Copy Code" class="copy"></button><span class="lang">scss</span><pre class="shiki material-theme-palenight" style="background-color:#292D3E;color:#babed8;" tabindex="0" dir="ltr"><code><span class="line"><span style="color:#676E95;font-style:italic;">// _variables.scss</span></span>
+<span class="line"><span style="color:#BABED8;">$primary</span><span style="color:#89DDFF;">:</span><span style="color:#89DDFF;"> #</span><span style="color:#BABED8;">409eff</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">// _mixins.scss</span></span>
+<span class="line"><span style="color:#89DDFF;font-style:italic;">@mixin</span><span style="color:#82AAFF;"> clearfix</span><span style="color:#89DDFF;"> {</span><span style="color:#676E95;font-style:italic;"> /* ... */</span><span style="color:#89DDFF;"> }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;">// main.scss</span></span>
+<span class="line"><span style="color:#89DDFF;font-style:italic;">@use</span><span style="color:#89DDFF;"> &#39;</span><span style="color:#C3E88D;">variables</span><span style="color:#89DDFF;">&#39;</span><span style="color:#89DDFF;">;</span></span>
+<span class="line"><span style="color:#89DDFF;font-style:italic;">@use</span><span style="color:#89DDFF;"> &#39;</span><span style="color:#C3E88D;">mixins</span><span style="color:#89DDFF;">&#39;</span><span style="color:#89DDFF;">;</span></span></code></pre></div><table tabindex="0"><thead><tr><th>特性</th><th>@import（旧）</th><th>@use（推荐）</th></tr></thead><tbody><tr><td>命名空间</td><td>无，全局污染</td><td>有，需通过命名空间访问</td></tr><tr><td>重复加载</td><td>可能多次加载</td><td>只加载一次</td></tr><tr><td>推荐度</td><td>已废弃</td><td>Sass 官方推荐</td></tr></tbody></table><h2 id="编译方式" tabindex="-1">编译方式 <a class="header-anchor" href="#编译方式" aria-label="Permalink to “编译方式”">​</a></h2><div class="language-bash"><button title="Copy Code" class="copy"></button><span class="lang">bash</span><pre class="shiki material-theme-palenight" style="background-color:#292D3E;color:#babed8;" tabindex="0" dir="ltr"><code><span class="line"><span style="color:#676E95;font-style:italic;"># 安装</span></span>
+<span class="line"><span style="color:#FFCB6B;">npm</span><span style="color:#C3E88D;"> install</span><span style="color:#C3E88D;"> -g</span><span style="color:#C3E88D;"> sass</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># 编译单个文件</span></span>
+<span class="line"><span style="color:#FFCB6B;">sass</span><span style="color:#C3E88D;"> input.scss</span><span style="color:#C3E88D;"> output.css</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># 监听文件变化</span></span>
+<span class="line"><span style="color:#FFCB6B;">sass</span><span style="color:#C3E88D;"> --watch</span><span style="color:#C3E88D;"> input.scss:output.css</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#676E95;font-style:italic;"># 压缩输出</span></span>
+<span class="line"><span style="color:#FFCB6B;">sass</span><span style="color:#C3E88D;"> --style=compressed</span><span style="color:#C3E88D;"> input.scss</span><span style="color:#C3E88D;"> output.css</span></span></code></pre></div>`,22)])])}const B=a(o,[["render",e]]);export{d as __pageData,B as default};
